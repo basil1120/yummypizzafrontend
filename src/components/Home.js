@@ -21,7 +21,7 @@ import { toast } from 'react-toastify';
         if (!this.props.items){
             return(
                 <div className="container">
-                    <h3 className="center">Our items</h3>
+                    <h3 className="center">Pizza Varieties</h3>
                     <div className="box">
                         No data
                     </div>
@@ -49,7 +49,7 @@ import { toast } from 'react-toastify';
 
         return(
             <div className="container">
-                <h3 className="center">Our items</h3>
+                <h3 className="center">Pizza Varieties</h3>
                 <div className="box">
                     {itemList}
                 </div>
