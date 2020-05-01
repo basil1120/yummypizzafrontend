@@ -62,7 +62,7 @@ class Recipe extends Component{
                         <div className="row">
                             <div className="input-field col s6">
                                 <input placeholder="" name="name" type="text" className="validate" onChange={(e) => this.onChange(e)}/>
-                                    <label>Name</label>
+                                    <label>Full Name</label>
                             </div>
                             <div className="input-field col s6">
                                 <input placeholder="" name="location" type="text" className="validate" onChange={(e) => this.onChange(e)}/>
